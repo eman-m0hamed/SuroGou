@@ -1,0 +1,508 @@
+*{
+    box-sizing:border-box;
+}
+/* start navbar css */
+
+.nav_1{
+    background-color: #0E74A5;
+    font-size: 15px;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+.container{
+    max-width:80%;
+    min-width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+.nav_1 .container div:first-child{
+    float: left;
+    padding: 15px 0;
+    overflow: hidden;
+    width: 700px;
+    
+}
+.nav_1 .container div:last-child{
+    float:left;
+    padding: 15px 0;
+    overflow: hidden;
+}
+.nav_1 .container div ul{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+}
+.nav_1 .container div ul li{
+    float: left;
+    padding-right:10px;
+    margin-right: 10px;
+    border-right: 1px solid #ccc;
+    color: #fff;
+}
+.nav_1 .container div ul li:last-child{
+    border-right: none;
+}
+.nav_1 .container div ul li:first-child a{
+color:#F7A804;
+}
+.nav_1 .container div ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+/* end navbar css */
+/* start header css */
+header{
+    margin: 35px 0;
+    overflow: hidden;
+}
+.logo{
+    float:left;
+    margin:0;
+    padding: 0;
+   
+}
+.logo a{
+    text-transform: capitalize;
+    color:#F7A804;
+    font-size: 35px;
+    text-decoration: none;
+}
+.logo a span:first-child{
+    color: #0E74A5;
+    font-size: 60px;
+
+}
+header .contact{
+    float:right;
+    overflow: hidden;
+}
+.floating{
+    float: left;
+    margin:7px 20px;
+    width: 300px;
+    overflow: hidden;
+}
+.block{
+    float: left;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    margin-right: 30px;
+    text-align: center;
+
+}
+ strong{
+    display: block;
+}
+.nav_2{
+    position: relative;
+    z-index: 999;
+    margin-bottom: -20px;
+    
+}
+.nav_2 .container{
+    background-color:#F7A804 ;
+    overflow: hidden;
+}
+.nav_2 .container ul{
+    list-style: none;
+    margin:0px;
+    padding: 0;
+    
+}
+.nav_2 .container .first li{
+    float: left;
+    margin:15px;
+    margin-right: 10px;
+}
+.nav_2 .container ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+.nav_2 .container ul li a:hover{
+    color:#0E74A5;
+}
+
+.nav_2 .container .first .drop_down .drop_content li{
+    float: none;
+    display: block;
+}
+.drop_content{
+    display: none;
+    position: absolute;
+    background-color: #F7A804;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 999;
+  }
+  .drop_content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+  }
+  .drop_content2{
+      left:125px;
+  }
+  .drop_down1:hover .drop_content1 {
+    display: block;
+    
+  }
+  .drop_down2:hover .drop_content2{
+    display: block;
+    
+  }
+  /* start first section  */
+  .head{
+      background-image: url('../images/background-01.jpg');
+      background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+      height: 404px;
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+  }
+  .op{
+      background-color:rgba(0, 0, 0, 0.397);
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      height: 100%;
+  }
+  .op .container{
+      padding:60px 0;
+      color: #fff;
+      overflow: hidden;
+      
+  }
+  .op h2{
+      text-transform: uppercase;
+      word-spacing: 4px;
+      letter-spacing: 4px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 100;
+      font-size:25px;
+      overflow: hidden;
+  }
+  .op h1{
+    font-size: 60px;
+    margin: 0;
+    overflow: hidden;
+}
+.op p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+
+}
+.op button, .sub .container div button, footer div button{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F7A804;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top:20px;
+    border: none;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+.op button:hover{
+    background-color: #f7a60400;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+/* end first section  */
+/* start second section  */
+.dividing{
+    margin-top: 100px;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.dividing1, .dividing2{
+    overflow: hidden;
+}
+
+.dividing1 section, .dividing2 section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    max-height: 300px;
+    min-width: 30%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+
+}
+
+.dividing .dividing1 section:nth-of-type(1){
+    background-image: url('../images/01.jpg');
+    
+    
+}
+.dividing .dividing1 section:nth-of-type(2){
+    background-image: url('../images/02.jpg');
+    
+}
+.dividing .dividing1 section:nth-of-type(3){
+    background-image: url('../images/03.jpg');
+    
+}
+.dividing .dividing2 section:nth-of-type(1){
+    background-image: url('../images/04.jpg');
+    
+}
+.dividing .dividing2 section:nth-of-type(2){
+    background-image: url('../images/05.jpg');
+    
+}
+.dividing .dividing2 section:nth-of-type(3){
+    background-image: url('../images/06.jpg');
+    
+}
+.dividing div{
+    background-color:rgba(0, 0, 0, 0.397);
+    color:#fff;
+    width: 100%;
+    height: 100%;
+    margin:0;
+    margin-top: -20px;
+    padding:10px;
+    height:320px;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+    padding-top: 200px;
+}
+.dividing div:hover{
+    opacity: 0;
+}
+.dividing1 h1,.part3 h1, .sub h2{
+    font-size: 25px;
+    font-weight: 100;
+    margin:0;
+    overflow: hidden;
+}
+.dividing1>p, .sub .container>p, .contact_us .container>p{
+    text-align: center;
+    margin:0 0 60px ;
+    overflow: hidden;
+
+}
+.dividing h2{
+    font-size: 20px;
+    font-weight: 100;
+    overflow: hidden;
+}
+.dividing p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* end second section */
+/* start part3 section */
+.part3{
+    background-color: rgb(231, 231, 231);
+    overflow: hidden;
+    height: 600px;
+    margin: 50px 0 0 0;
+    padding-top:50px;
+    text-align: center;
+
+} 
+
+.part3 .container p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0 60px 0;
+    font-size: 14px;
+}
+.part3 .container>p{
+    margin-top: 0;
+    font-size: medium;
+
+}
+.part3 .container .divi{
+float:left;
+padding:20px;
+width: 30%;
+height: 400px;
+text-align: center;
+
+}
+.divi i{
+    font-size: 50px;
+    padding: 40px;
+    margin-bottom: 45px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #F7A804;
+    transition: all 1s ease-in-out;
+}
+.divi i:hover{
+    color: #fff;
+    background-color: #F7A804;
+
+}
+/* end part3 section */
+/* start part4 section */
+.feedback, .contact_us{
+
+    background: linear-gradient(to bottom right,#0E74A5,#4FB5F5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+    overflow: hidden;
+
+
+}
+.feedback div{
+    float: left;
+    width: 45%;
+    margin-right: 20px;
+}
+.feedback h2, .sub h2,.contact_us h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin:25px 0 0 0;
+    overflow: hidden;
+
+}
+.feedback .container div blockquote{
+    background-color: #fff;
+    padding: 5px;
+    color: #000;
+    margin: 15px;
+    font-size: 13px;
+}
+.feedback .container div img{
+    border-radius: 50%;
+    margin:40px 20px 20px 20px;
+}
+.feedback .container p{
+    margin:0 0 0 40px;
+    font-size: 12px;
+
+}
+.feedback .container span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+/* end part4 section */
+/* start part5 section */
+.sub{
+    background-color: rgb(248, 245, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 50px 0 ;
+    overflow: hidden;
+}
+.sub .container div{
+    float: left;
+    max-width: 30%;
+    min-width: 30%;
+    background-color: #fff;
+    margin-right: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    padding-left: 20px;
+
+    
+
+}
+.sub .container div button:hover{
+    border:1px solid black;
+    color:black;
+    background-color: #f7a60400;
+
+}
+.sub .container div i a{
+    color:#F7A804;
+    font-size: 15px;
+    text-decoration: none;
+    margin:20px 10px ;
+}
+/* end part5 section */
+/* start part6 section */
+.contact_us .container div{
+    float: left;
+    max-width: 30%;
+    min-width: 30%;
+    margin-right: 30px;
+    padding: 10px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #fff;
+    color:black;
+
+}
+.contact_us .container div i{
+    font-size: 17px;
+    padding: 20px;
+    margin-right: 10px;
+    /* margin-bottom: 45px; */
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color:rgb(89, 113, 248);
+    float:left;
+}
+/* end part5 section */
+/* start footer */
+footer{
+    border-bottom:1px solid #ccc ;
+    padding:30px 0;
+}
+footer div{
+    float: left;
+    width:30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px 40px 30px 0;
+}
+footer div i{
+    color:#fff;
+    background-color: #0E74A5;
+    padding:5px;
+    float:left;
+    margin-right: 10px;
+}
+footer h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-weight: 100;
+}
+footer div a{
+    text-decoration: none;
+    color: #F7A804;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    margin:10px;
+    padding-bottom:10px;
+}
+footer input{
+    display: block;
+    background-color: #0E74A5;
+    width: 100%;
+    padding:10px;
+    margin-bottom:20px;
+    border: none;
+
+}
+
+/* end footer */
